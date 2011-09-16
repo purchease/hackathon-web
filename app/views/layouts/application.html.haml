@@ -1,0 +1,27 @@
+!!!
+%html
+  %head
+    %title Hackathon
+    %link{'rel'=>"shortcut icon", 'href'=>"/images/favicon.ico"}
+    = javascript_include_tag 'application'
+    = yield(:javascript)
+
+    = stylesheet_link_tag 'bootstrap.css'
+    = stylesheet_link_tag 'layouts/application'
+    = yield(:stylesheet)
+    
+    = csrf_meta_tag
+    
+  %body{:style => "padding-top: 70px;"}
+    .topbar-wrapper{:style =>"z-index: 5;"}
+      .topbar{'data-dropdown' => "dropdown"}
+        .topbar-inner
+          .container
+            %h3
+              = link_to 'Hackathon', root_url
+            .nav
+              %li.active= link_to 'Home', root_url
+    
+    
+    .container
+      =yield
