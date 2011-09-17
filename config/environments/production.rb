@@ -21,7 +21,6 @@ Hackathon::Application.configure do
   config.assets.digest = true
 
   config.action_dispatch.x_sendfile_header = nil  # as per Heroku support 
-  config.force_ssl = true 
 
   # Defaults to Rails.root.join("public/assets")
   # config.assets.manifest = YOUR_PATH
