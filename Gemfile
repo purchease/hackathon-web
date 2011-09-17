@@ -22,6 +22,8 @@ gem 'haml-rails'
 
 gem 'rabl'
 
+gem 'pg'
+
 # Use unicorn as the web server
 # gem 'unicorn'
 
