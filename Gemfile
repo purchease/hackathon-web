@@ -19,6 +19,8 @@ gem 'haml-rails'
 
 gem 'rabl'
 
+gem 'therubyracer-heroku'
+
 gem 'pg'
 
 # Use unicorn as the web server
