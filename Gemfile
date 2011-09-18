@@ -21,7 +21,10 @@ gem 'rabl'
 
 gem 'therubyracer-heroku'
 
+gem 'sqlite3'
 gem 'pg'
+
+gem 'devise'
 
 # Use unicorn as the web server
 # gem 'unicorn'
