@@ -35,7 +35,6 @@ gem 'devise'
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
 group :development do
-  gem 'sqlite3'
 end
 
 group :test do
